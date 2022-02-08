@@ -1,0 +1,129 @@
+img {
+    object-fit: cover;
+    border-radius:50%;
+    width: 400px;
+    height: 400px;
+    margin-right: 499px;
+    margin-left: 550px;
+  }
+    @media only screen and (max-width: 480px) {
+      img {
+          width: 35%;
+          margin-right: 0px;
+          margin-left: 200px;
+      }
+  }
+    .search {
+      font-family: OCR A Std, monospace;
+      color: black;
+  }
+  label {
+      font-family: OCR A Std, monospace;
+      color: black;
+  }
+  
+  input,
+  label {
+     margin: .4rem 0;
+  }
+  html {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    box-sizing: border-box;
+    min-width: 200px;
+    height: 100%;
+  }
+  
+  .topnav {
+      list-style: none;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      font-family: OCR A Std, monospace;;
+      color: black;
+      background-color: #e0d7cd;
+      position: fixed;
+      top: 0;
+      width: 100%;
+  }
+  
+  .topnav>li {
+    display: inline-block;
+    padding: 10px 50px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .typewrite {
+    font-family: OCR A Std, monospace;
+    color: white;
+  }
+  body {
+      background-color: rgb(52, 73, 94);
+      font-family: OCR A Std, monospace;
+      text-align: center;
+      color: black;
+      padding-top:10em;
+  }
+  p {
+    color: white;
+    font-family: OCR A Std, monospace;;
+    text-align-last: center;
+  }
+  input[type=text], select, textarea {
+      width: 100%; 
+      padding: 12px; 
+      border: 1px solid #ccc; 
+      border-radius: 4px; 
+      box-sizing: border-box; 
+      margin-top: 6px; 
+      margin-bottom: 16px; 
+      resize: vertical
+    }
+  input[type=email], select, textarea {
+      width: 100%; 
+      padding: 12px; 
+      border: 1px solid #ccc; 
+      border-radius: 4px; 
+      box-sizing: border-box; 
+      margin-top: 6px; 
+      margin-bottom: 16px; 
+      resize: vertical
+    }
+    input[type=submit] {
+      background-color: gray;
+      color: black;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: black;
+    }
+    .container {
+      border-radius: 5px;
+      background-color: rgb(52, 73, 94);
+      padding: 20px;
+    }
+    @media (max-width: 600px) {
+      .topnav a {
+        float: none;
+        width: 100%;
+        color: black; 
+      }
+  }
+  @media (max-width: 600px) {
+      .container {
+        float: none;
+        width: 100%;
+        color: black;
+      }
+  }
